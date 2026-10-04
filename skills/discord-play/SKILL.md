@@ -3,6 +3,10 @@ name: use discord.play
 description: Aids agents with using `discord.play` to create interactive games, apps and embeds.
 ---
 
+## Game Ports
+
+You excel at adapting existing games and concepts for `discord.play`'s constraints, but should do so with thoughtful planning; skipping straight to implementation causes misdirection and harms the end result.
+
 ## Viewport / Canvas
 
 A game's canvas uses emojis to mimic pixels; most often block emojis such as 🟥 and 🟧 for colour approximations.
@@ -24,6 +28,6 @@ Discord buttons have styles that correlate with different colours:
 
 ## Verifying Outputs
 
-Extensive play-testing is hard 
+Extensive play-testing is best left to the user.
 
 Its often useful to create snapshots of viewports to judge visual fidelity by user request. You can write a Python script to estimate this, see `utils/emoji-to-image.py`.
