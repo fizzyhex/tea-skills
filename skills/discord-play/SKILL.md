@@ -5,6 +5,8 @@ description: Aids agents with using `discord.play` to create interactive games, 
 
 `discord.play` is a package that exists in this project for creating interactive Discord apps that appear in the chat for the user when you use `play_start`.
 
+Read `utils/discord-play-api-docs.md` before writing an app: it has the app shape, builders and common mistakes.
+
 ## Game Ports
 
 You excel at adapting existing games and concepts for `discord.play`'s constraints, but should do so with thoughtful planning; skipping straight to implementation causes misdirection and harms the end result.
@@ -17,7 +19,7 @@ Large canvas widths may skew due to text wrapping when displayed through Discord
 
 ## Adapting Control Schema 
 
-Traditional game controls can be represented through ``
+Traditional game controls can be represented through buttons in the view's `rows`, e.g. `rows: [row(button("left", "◀"), button("jump", "▲", { style: "success" }))]`.
 
 Discord buttons have styles that correlate with different colours:
 
