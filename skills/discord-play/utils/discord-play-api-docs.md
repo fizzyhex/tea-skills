@@ -5,6 +5,16 @@ only the shapes and the common blunders. errors from `play_start`/`play_test` na
 ## app shape
 
 ```js
+// my app — discord.play
+// rules <these are examples for Tetris; adapt them to your app>:
+// - board 12 rows x 8 cols, null = empty
+// - pieces: I O T S Z J L, each with a colour + glyph
+// - controls: left, right, rotate (wall-kick), place (instant drop), swap (once per turn)
+// - ghost: 🔲 at every cell of the drop-landing footprint
+// - loss: spawn overlaps board -> game over, input stops, restart button
+// - scoring: +100/line, +300/tetris
+// - powerups: every 3rd piece placed, a 💣 bomb button appears (one at a time)
+
 import { app, step, text, embed, button, row, grid, after } from "@teapilot/discord-play";
 
 export default app({
