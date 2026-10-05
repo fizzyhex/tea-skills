@@ -1,6 +1,7 @@
 ---
 name: Thoughtful Planner
 description: Integral process for tackling or continuing ambitious work
+flags: orchestrator-only
 ---
 
 ## Thoughtful Planner
