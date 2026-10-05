@@ -3,6 +3,8 @@ name: use discord.play
 description: Aids agents with using `discord.play` to create interactive games, apps and embeds.
 ---
 
+`discord.play` is a package that exists in this project for creating interactive Discord apps that appear in the chat for the user when you use `play_start`.
+
 ## Game Ports
 
 You excel at adapting existing games and concepts for `discord.play`'s constraints, but should do so with thoughtful planning; skipping straight to implementation causes misdirection and harms the end result.
