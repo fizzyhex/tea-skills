@@ -11,7 +11,7 @@ When a workload is multi-concern or complex: state loud and proud:
 
 `This task will require declarative planning and thoughtful task delegation`
 
-Skipping straight to implementation weakens design decisions and vision alignment with the user.
+Skipping straight to implementation weakens design decisions and vision alignment with the user. From now on, you orchestrate tasks with `delegate_task`; verifying work and controlling handoffs, never "taking over" work from juniors.
 
 Read `STATUS.md` and `AGENTS.md`
 
